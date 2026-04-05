@@ -6,6 +6,15 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 const projects = [
   {
     id: 1,
+    title: 'Portfolio Website',
+    description: 'A modern, fully responsive portfolio built with React, styled using TailwindCSS, and enhanced by immersive Framer Motion animations to deliver a smooth, visually engaging user experience.',
+    image: '/chinmaya-portfolio.png',
+    github: 'https://github.com/iamchinmaya07/chinmaya-portfolio',
+    live: 'https://chinmaya-sahoo.vercel.app/',
+    tech: ['React' , 'Tailwindcss', 'Framer Motion' ]
+  },
+  {
+    id: 2,
     title: 'Swiggyfy',
     description: 'Swiggy clone integrating real-time APIs for restaurant listings, menus, and cart functionality with a responsive user interface.',
     image: '/swiggyfy-project.png',
@@ -14,7 +23,7 @@ const projects = [
     tech: ['React', 'Tailwindcss', 'Swiggy-API']
   },
   {
-    id: 2,
+    id: 3,
     title: 'DSA-Visualizer',
     description: 'Interactive DSA Visualizer to help users understand data structures and algorithms through dynamic, step-by-step animations',
     image: '/AlgoLens-project.png',
@@ -23,7 +32,7 @@ const projects = [
     tech: ['React', 'Tailwindcss', 'Motion', 'Typescript', 'lucide-react']
   },
   { 
-    id: 3,
+    id: 4,
     title: 'Leet Metricx',
     description: 'A sleek dashboard to visualize LeetCode progress using interactive statistics and dynamic data representations.',
     image: '/LeetMetricx-project.png',
