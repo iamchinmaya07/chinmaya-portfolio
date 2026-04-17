@@ -24,6 +24,15 @@ const projects = [
   },
   {
     id: 3,
+    title: 'BG-Remover',
+    description: 'Built a full-stack background removal app with React and Express, integrating the remove.bg API with features including drag-and-drop upload, rate limiting, input validation, dark mode, and cross-origin blob-based image download.',
+    image: '/bg_remover.png',
+    github: 'https://github.com/iamchinmaya07/bg-remover',
+    live: 'https://pixanova.vercel.app/',
+    tech: ['React', 'Tailwind CSS', 'Node.js', 'Express', 'REST API']
+  },
+  {
+    id: 4,
     title: 'DSA-Visualizer',
     description: 'Interactive DSA Visualizer to help users understand data structures and algorithms through dynamic, step-by-step animations',
     image: '/AlgoLens-project.png',
@@ -32,7 +41,7 @@ const projects = [
     tech: ['React', 'Tailwindcss', 'Motion', 'Typescript', 'lucide-react']
   },
   { 
-    id: 4,
+    id: 5,
     title: 'Leet Metricx',
     description: 'A sleek dashboard to visualize LeetCode progress using interactive statistics and dynamic data representations.',
     image: '/LeetMetricx-project.png',

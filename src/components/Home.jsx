@@ -2,7 +2,7 @@ import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { Float, Stars, OrbitControls } from "@react-three/drei";
 import { motion } from "framer-motion";
-import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 // 1. CHANGE PHOTO: Import your image here. 
 // Place your photo in src/assets/heroImg.jpg
