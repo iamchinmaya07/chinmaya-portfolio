@@ -15,6 +15,15 @@ const projects = [
   },
   {
     id: 2,
+    title: 'CodeForge',
+    description: 'A full-stack LeetCode-inspired platform with Monaco editor, AI-powered DSA tutor, real-time code execution, and admin panel for problem management.',
+    image: '/CodeForge.png',
+    github: 'https://github.com/iamchinmaya07/codeforge',
+    live: 'https://codeforge-chinmaya.vercel.app/',
+    tech: ['React', 'TailwindCSS', 'Node.js', 'Express', 'MongoDB', 'Redis', 'Judge0', 'Groq AI', 'Cloudinary']
+  },
+  {
+    id: 3,
     title: 'Swiggyfy',
     description: 'Swiggy clone integrating real-time APIs for restaurant listings, menus, and cart functionality with a responsive user interface.',
     image: '/swiggyfy-project.png',
@@ -23,7 +32,7 @@ const projects = [
     tech: ['React', 'Tailwindcss', 'Swiggy-API']
   },
   {
-    id: 3,
+    id: 4,
     title: 'BG-Remover',
     description: 'Built a full-stack background removal app with React and Express, integrating the remove.bg API with features including drag-and-drop upload, rate limiting, input validation, dark mode, and cross-origin blob-based image download.',
     image: '/bg_remover.png',
@@ -32,7 +41,7 @@ const projects = [
     tech: ['React', 'Tailwind CSS', 'Node.js', 'Express', 'REST API']
   },
   {
-    id: 4,
+    id: 5,
     title: 'DSA-Visualizer',
     description: 'Interactive DSA Visualizer to help users understand data structures and algorithms through dynamic, step-by-step animations',
     image: '/AlgoLens-project.png',
@@ -41,7 +50,7 @@ const projects = [
     tech: ['React', 'Tailwindcss', 'Motion', 'Typescript', 'lucide-react']
   },
   { 
-    id: 5,
+    id: 6,
     title: 'Leet Metricx',
     description: 'A sleek dashboard to visualize LeetCode progress using interactive statistics and dynamic data representations.',
     image: '/LeetMetricx-project.png',
