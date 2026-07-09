@@ -42,6 +42,14 @@ const projects = [
   },
   {
     id: 5,
+    title: 'The Morning Cup',
+    description: 'A SQL analytics project that solves real business problems and finds the best locations for a coffee shop chain to expand.',
+    image: '/The-Morning-Cup.png',
+    github: 'https://github.com/Coffee-Expansion-SQL-Project',
+    tech: ['SQL', 'MySQL', 'Relational Database Design', 'Data Analysis']
+  },
+  {
+    id: 6,
     title: 'DSA-Visualizer',
     description: 'Interactive DSA Visualizer to help users understand data structures and algorithms through dynamic, step-by-step animations',
     image: '/AlgoLens-project.png',
@@ -50,7 +58,7 @@ const projects = [
     tech: ['React', 'Tailwindcss', 'Motion', 'Typescript', 'lucide-react']
   },
   { 
-    id: 6,
+    id: 7,
     title: 'Leet Metricx',
     description: 'A sleek dashboard to visualize LeetCode progress using interactive statistics and dynamic data representations.',
     image: '/LeetMetricx-project.png',
