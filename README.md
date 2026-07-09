@@ -1,16 +1,56 @@
-# React + Vite
+Markdown
+# 🌌 Professional Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance, minimalist digital showroom engineered to showcase full-stack development capabilities and computational projects. Built with **React** and **Vite**, the application is optimized for speed, responsiveness, and fluid user interactions.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack & Architecture
 
-## React Compiler
+*   **Core Framework:** React.js & Vite (Ensuring sub-second initial load times and efficient builds)
+*   **Styling Engine:** Tailwind CSS (Utility-first, mobile-first responsive design framework)
+*   **Animation Engine:** Framer Motion (Hardware-accelerated scroll animations and micro-interactions)
+*   **Integrations:** EmailJS (Serverless communication portal handling contact inquiries securely via environment variables)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Key UI/UX Highlights
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+*   **Fluid Interactions:** Immersive scroll-linked animations, dynamic text gradients, and interactive components that bring the portfolio to life.
+*   **Responsive Architecture:** Pixel-perfect layouts adapted across all breakpoints—from mobile viewports to desktop displays.
+*   **Polished Header & Branding:** Custom-styled developer branding featuring clean typography and IDE-inspired visual cues.
+*   **Serverless Contact Flow:** Fully operational message dispatch framework eliminating the need for bulky custom backend overhead.
+
+---
+
+## 🚀 Local Development Setup
+
+### 1. Clone the repository
+```bash
+git clone [https://github.com/iamchinmaya07/chinmaya-portfolio.git](https://github.com/iamchinmaya07/chinmaya-portfolio.git)
+cd chinmaya-portfolio
+2. Install dependencies
+Bash
+npm install
+3. Configure Environment Variables
+Create a .env file in the root directory and append your secure communication credentials:
+
+Code snippet
+VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_EMAILJS_PUBLIC_KEY=your_public_key
+4. Launch local server
+Bash
+npm run dev
+📦 Continuous Integration & Deployment
+This project features a fully automated Vercel CI/CD pipeline linked directly to the repository's production branch.
+
+To ship updates live instantly:
+
+Bash
+git add .
+git commit -m "feat: enhance UI components"
+git push origin main
+The connected pipeline automatically captures the repository state, securely evaluates the environment variables, and deploys the build globally in seconds.
+
+Crafted with 💻 by Chinmaya Sahoo
