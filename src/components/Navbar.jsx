@@ -25,14 +25,26 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
 
         {/* LOGO */}
-        <motion.h1
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          className="text-2xl md:text-3xl font-bold cursor-pointer text-gray-900 dark:text-white"
-        >
-          Chinmaya
-        </motion.h1>
+<motion.h1
+  initial={{ opacity: 0, y: -20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.5 }}
+  whileHover={{ scale: 1.05 }} // Subtle pop on hover
+  className="text-2xl md:text-3xl font-bold cursor-pointer text-gray-900 dark:text-white"
+>
+  <span className="font-mono">
+    {/* Blue Opening Bracket */}
+    <span className="bg-gradient-to-r from-gray-900 to-gray-700 dark:from-white dark:from-10% dark:to-gray-300 bg-clip-text text-transparent">&lt;</span>
+    
+    {/* Gradient Name */}
+    <span className="bg-gradient-to-r from-gray-900 to-gray-700 dark:from-white dark:from-10% dark:to-gray-300 bg-clip-text text-transparent">
+      Chinmaya
+    </span>
+    
+    {/* Blue Closing Bracket */}
+    <span className="bg-gradient-to-r from-gray-900 to-gray-700 dark:from-white dark:from-10% dark:to-gray-300 bg-clip-text text-transparent"> /&gt;</span>
+  </span>
+</motion.h1>
 
         {/* DESKTOP MENU */}
         <div className="hidden md:flex items-center space-x-6">
